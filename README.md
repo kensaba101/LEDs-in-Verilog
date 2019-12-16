@@ -1,5 +1,5 @@
 # LEDs-in-Verilog
-A simple 'Hello World' project for Digilent's Zybo Zynq-7000 board
+A simple 'Hello World' project I did on my Digilent's Zybo Zynq-7000 board
 
 All it involves are 4 LEDs, 4 switches, and a clock. I implemented the whole thing under one module, using an FSM under an always @ block. Switches 0 & 1 are used to switch between 4 states, switch 2 controls the speed at which the LED outputs change, and switch 3 determines the direction (not applicable for state 1). 
 
