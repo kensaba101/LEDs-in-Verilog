@@ -143,7 +143,11 @@ begin
                                     LED <= 4'd0;
                                     counter <= 0; 
                                 end 
-                              end    
+                              end   
+			    
+			 default: begin
+               			  LED <= 4'd0; 
+            		 end
                     endcase
                 end
                 counter = counter + 1; 
